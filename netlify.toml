@@ -8,6 +8,6 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://yixiuer.netlify.com/*"
+  from = "https://5e0147d8738b6da72771053b--eloquent-tesla-15080a.netlify.com/*"
   to = "https://360tai.cn/:splat"
   force = true
