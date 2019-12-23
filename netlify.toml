@@ -9,5 +9,5 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://yixiuer.netlify.com/*"
-  to = "https://yixiuer.me/:splat"
+  to = "https://360tai.cn/:splat"
   force = true

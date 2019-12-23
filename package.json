@@ -1,7 +1,7 @@
 {
   "name": "360tai.cn",
-  "version": "1.0.0",
-  "description": "我的健康生活",
+  "version": "0.1.0",
+  "description": "Tao's Blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
