@@ -7,3 +7,8 @@ info = "[*Glastonbury Festival*](https://timeline.coldplay.com/show/glastonbury-
 tags = ["coldplay"]
 weight = 7
 +++
+
+喜欢请分享，谢谢！
+
+
+---

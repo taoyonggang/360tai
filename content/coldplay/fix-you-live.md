@@ -7,3 +7,7 @@ info = "[*Mylo Xyloto Tour*](https://timeline.coldplay.com/show/stade-de-france/
 tags = ["coldplay"]
 weight = 1
 +++
+
+喜欢请分享，谢谢！
+
+---

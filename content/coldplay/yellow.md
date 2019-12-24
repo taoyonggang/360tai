@@ -7,3 +7,7 @@ info = ""
 tags = ["coldplay"]
 weight = 4
 +++
+
+喜欢请分享，谢谢！
+
+---

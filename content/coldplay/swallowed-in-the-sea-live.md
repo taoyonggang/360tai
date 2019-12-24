@@ -7,3 +7,8 @@ info = "[*Twisted Logic Tour*](https://en.wikipedia.org/wiki/Twisted_Logic_Tour)
 tags = ["coldplay"]
 weight = 8
 +++
+
+喜欢请分享，谢谢！
+
+
+---
