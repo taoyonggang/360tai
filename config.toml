@@ -216,8 +216,8 @@ uglyURLs = false
         pre = "internal"
         post = "balance-scale"
     [[menu.main]]
-        url = "/notes/"
-        name = "笔记"
+        url = "/coldplay/"
+        name = "音乐"
         weight = 5
         pre = "internal"
         post = "envira"
