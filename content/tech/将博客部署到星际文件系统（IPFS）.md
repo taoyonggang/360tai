@@ -439,7 +439,7 @@ $ ipfs repo gc
 2. Cloudflare 上看不到浏览统计信息；不支持强制跳转到 HTTPS
 3. Cloudflare 的 IPFS Gateway 会 403 视频
 
-对于第三个问题，是只对你将视频直接存放在博客的仓库，且在博客中用相对链接作为视频的 URL 有影响的，解决方法就是在该视频链接前加上其它 IPFS Gateway 地址，比如 `https://gateway.pinata.cloud` 😉。
+对于第三个问题，是只对你将视频直接存放在博客的仓库，且在博客中用相对链接作为视频的 URL 有影响的，解决方法就是在该视频链接前加上其它 IPFS Gateway 地址，比如 `https://gateway.360tai.cn` 😉。
 
 对于本博客呢，还有个页面重定向的问题。我的博客之前进行过一次[重构](/tech/redesign-this-blog-under-minimalism/)，改变了 URL 结构，导致原来的文章链接大量 404，这是很不利于 SEO 的。[后来](/tech/deploy-static-site-to-netlify/)，我通过 Netlify 的 [Redirect](https://www.netlify.com/docs/redirects/) 功能解决了，但现在我将博客部署在了 IPFS 上，它自然就失效了。尝试了一下 Cloudflare 的 Page Rules，也不起作用。但还好 Hugo 有一个叫 [Aliases](https://gohugo.io/content-management/urls/#aliases) 的功能，这个问题也就很快得到了解决👽。
 

@@ -11,7 +11,7 @@ Click on any of the links below:
 1. https://vpool.club/
 2. https://ipfs.io/ipns/vpool.club/
 3. https://cloudflare-ipfs.com/ipns/vpool.club/
-4. https://gateway.pinata.cloud/ipns/vpool.club/
+4. https://gateway.360tai.cn/ipns/vpool.club/
 5. or whichever [Public IPFS Gateway](https://ipfs.github.io/public-gateway-checker/) you like...
 
 Guess what? You can even browse this site at http://127.0.0.1:8080/ipns/vpool.club/  

@@ -17,7 +17,7 @@ aliases = ["/tech/test/"]
 <video src="https://什么什么什么.mp4" controls></video>
 ```
 
-<video src="https://gateway.pinata.cloud/ipns/io-oi.me/videos/flying-clouds-720p.mp4" controls></video>
+<video src="https://gateway.360tai.cn/ipns/io-oi.me/videos/flying-clouds-720p.mp4" controls></video>
 
 [视频来源](http://www.acesheep.com/)，被我用在了 <a href="/404.html" target="_blank">404</a> 页面。
 
