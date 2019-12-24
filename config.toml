@@ -251,9 +251,14 @@ uglyURLs = false
         weight = 3
         pre = "external"
     [[menu.home]]
-        url = "/icp"
+        url = "/#"
         name = "蜀ICP备18014876号-1"
         weight = 4
+        pre = "external"
+    [[menu.home]]
+        url = "https://blog.360tai.cn"
+        name = "国内访问"
+        weight = 5
         pre = "external"
 
 

@@ -8,6 +8,6 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://practical-lichterman-5dcc24.netlify.com/*"
+  from = "https://angry-liskov-938b76.netlify.com/*"
   to = "https://vpool.club/:splat"
   force = true
