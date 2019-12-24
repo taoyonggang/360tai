@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://360tai.cn/"
+baseURL = "https://vpool.club/"
 title = "莲花海的博客 - Tao"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -88,7 +88,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://360tai.cn/"
+    website = "https://vpool.club/"
     # 推特
     twitter = "taoyonggang"
 

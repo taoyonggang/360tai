@@ -9,5 +9,5 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://practical-lichterman-5dcc24.netlify.com/*"
-  to = "https://360tai.cn/:splat"
+  to = "https://vpool.club/:splat"
   force = true
