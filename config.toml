@@ -80,7 +80,7 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "Tao 蜀ICP备18014876号-1"
+    name = "莲花海 蜀ICP备18014876号-1"
     # 邮箱
     email = "taoyonggang@hotmail.com"
     # 座右铭或简介
@@ -334,7 +334,7 @@ uglyURLs = false
     homeVideoMp4 = "https://gateway.360tai.cn/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
     homeLogo = "/icons/android-chrome-512x512.png"
     homeLogoLink = "/home/"
-    homeTitle = "Tao的博客"
+    homeTitle = "莲花海的博客"
     homeMotto = "基·道·果"
     homeDescription = "一个关于生命实践的博客，目标是超越局限"
     homeKeywords = "关键词：佛、真理、实践、形而上学、哲学、物理、神话、未来、科幻、赛博朋克、去中心化、开源、星际"
