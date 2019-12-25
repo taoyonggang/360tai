@@ -112,7 +112,7 @@ workbox.routing.registerRoute(
 
 // Videos
 workbox.routing.registerRoute(
-    /^https:\/\/gateway\.pinata\.cloud\/ipns\/yixiuer\.me\/videos\/.*/,
+    /^https:\/\/gateway\.pinata\.cloud\/ipns\/vpool\.club\/videos\/.*/,
     new workbox.strategies.CacheFirst({
         cacheName: "videos",
         plugins: [

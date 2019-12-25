@@ -84,7 +84,7 @@ uglyURLs = false
     # 邮箱
     email = "taoyonggang@hotmail.com"
     # 座右铭或简介
-    motto = "本来清净而任运自成"
+    motto = "本来清净任运自成"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
@@ -600,7 +600,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -609,9 +609,9 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
+    enableValine = true
+    valineAppId = "GDsvv6nOXLe82psCRozngskt"
+    valineAppKey = "OGWo3gUOGBvXtKwNIOYwi7ga"
     valinePlaceholder = "Just go go"
     valineNotify = false
     valineVerify = false
@@ -624,7 +624,7 @@ uglyURLs = false
     valineHighlight = true
     avatarForce = false
     valineRecordIP = false
-    valineServerURLs = ""
+    valineServerURLs = "https://gdsvv6no.lc-cn-n1-shared.com"
     # 说明：https://valine.js.org/
 
     ## Utterances
@@ -826,7 +826,7 @@ uglyURLs = false
     enableImageHost = false
 
     # 图片外链地址
-    imageHostURL = "https://vpool.club/"
+    imageHostURL = "https://blog.360tai.cn/"
 
     # 是否将 HTML 的头部元数据中的图片链接也替换为外链
     headAlso = false
@@ -844,7 +844,7 @@ uglyURLs = false
     enableVideoHost = false
 
     # 视频外链地址
-    videoHostURL = "http://gateway.360tai.cn/ipfs/"
+    videoHostURL = "https://gateway.360tai.cn/ipfs/"
 
 
     ######################################
