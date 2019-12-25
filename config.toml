@@ -40,10 +40,10 @@ enableRobotsTXT = false
 paginate = 5
 
 # 代码高亮
-# pygmentsCodefences = true
-# pygmentsUseClasses = true
-# pygmentsCodefencesGuessSyntax = true
-# pygmentsOptions = "linenos=table"
+ pygmentsCodefences = true
+ pygmentsUseClasses = true
+ pygmentsCodefencesGuessSyntax = true
+ pygmentsOptions = "linenos=table"
 
 # URL 相关
 disablePathToLower = false
@@ -1182,7 +1182,7 @@ uglyURLs = false
     # 代码高亮
 
     # 是否开启
-    enableHighlight = false
+    enableHighlight = true
 
 
     ######################################
