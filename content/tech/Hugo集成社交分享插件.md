@@ -1,13 +1,9 @@
-
 +++
-title = "Hugo 集成社交分享插件"
-date = "2019-12-25T00:00:00+08:00"
+title = "Hugo集成社交分享插件"
+date = "2019-12-25T10:06:28+08:00"
 tags = ["hugo", "share" ]
 slug = "share-hugo-wexin-weibo"
 description = "使用share.js分享hugo博客"
-gitinfo = true
-displayCopyright = true
-Categories = ["hugo", "share"]
 +++
 
 
@@ -190,3 +186,4 @@ noshare: true
 
 ## 3. 更多
 关于分享插件的更多自定义配置请参考代码仓库的 [README](https://github.com/overtrue/share.js)。
+
