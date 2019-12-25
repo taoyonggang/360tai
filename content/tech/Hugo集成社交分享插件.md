@@ -1,6 +1,6 @@
 +++
 title = "Hugo集成社交分享插件"
-date = "2019-12-25T10:06:28+08:00"
+date = "2019-12-24T10:06:28+08:00"
 tags = ["hugo", "share" ]
 slug = "share-hugo-wexin-weibo"
 description = "使用share.js分享hugo博客"
@@ -11,7 +11,6 @@ description = "使用share.js分享hugo博客"
 
 还好我发现了一款简单高效的社交分享组件，只看一眼便可以确认这就是我要寻找的那个它。直接上预览，你看完一定会喜欢上：
 ![演示](https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/yURXT6.jpg)
-
 
 ## 1. 简介
 
@@ -25,14 +24,15 @@ share.js 是一款简单高效的社交分享组件，直接引入使用即可�
 同页面个分享组件
 支持npm安装
 
-
 ## 2. 引入 share.js
+
 由于我的博客使用的是 hugo，而且使用的主题是 Jimmy Song 的 beautifulhugo，官方文档提供的安装方式不适用，需要稍作改动。
 
 如果你使用的是其他主题，安装方式类似，你可以自己研究一下。
 
 导入静态资源
 首先克隆 share.js 的代码仓库：
+
 ```
 $ git clone https://github.com/overtrue/share.js
 ```
@@ -116,7 +116,7 @@ $ cat <hugo_home>/themes/beautifulhugo/static/css/share.min.css
   <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "css/share.min.css" | absURL }}" />
   ...
- ```
+```
 然后在 <hugo_home>/themes/beautifulhugo/layouts/partials/目录下创建一个 html。
 ```
 $ cat <hugo_home>/themes/beautifulhugo/layouts/partials/share.html
@@ -172,7 +172,7 @@ $ cat <hugo_home>/themes/beautifulhugo/layouts/partials/share.html
                 {{ end }}
             </article>
             ...
- ```
+```
 这样我们就可以在页面中通过 noshare 参数来控制了。如下是不想加载分享插件的文章的 meta 信息参数：
 
 ```
@@ -185,5 +185,5 @@ noshare: true
 ```
 
 ## 3. 更多
-关于分享插件的更多自定义配置请参考代码仓库的 [README](https://github.com/overtrue/share.js)。
 
+关于分享插件的更多自定义配置请参考代码仓库的 [README](https://github.com/overtrue/share.js)。
