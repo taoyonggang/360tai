@@ -35,18 +35,18 @@ share.js 是一款简单高效的社交分享组件，直接引入使用即可�
 
 导入静态资源
 首先克隆 share.js 的代码仓库：
-~~~
+```
 $ git clone https://github.com/overtrue/share.js
-~~~
+```
 然后分别将 css、js 和 fonts 拷贝到 beautiful 主题中的相应目录下：
-~~~
+```
 # <hugo_home> 表示 hugo 的根目录
 $ cp share.js/css/share.min.css <hugo_home>/themes/beautifulhugo/static/css/
 $ cp share.js/js/social-share.min.js <hugo_home>/themes/beautifulhugo/static/js/
 $ cp -r share.js/fonts/* <hugo_home>/themes/beautifulhugo/static/fonts/
-~~~
+```
 默认的 css 样式图标太小，我稍微调整了一下，将图标放大一点，修改后的 css 内容如下：
-~~~
+```
 $ cat <hugo_home>/themes/beautifulhugo/static/css/share.min.css
 @font-face{font-family:"socialshare";src:url("../fonts/iconfont.eot");src:url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"),url("../fonts/iconfont.woff") format("woff"),url("../fonts/iconfont.ttf") format("truetype"),url("../fonts/iconfont.svg#iconfont") format("svg")}
 .social-share{font-family:"socialshare" !important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:0.2px;-moz-osx-font-smoothing:grayscale}
@@ -98,16 +98,16 @@ $ cat <hugo_home>/themes/beautifulhugo/static/css/share.min.css
 .social-share .icon-wechat .wechat-qrcode .help p{font-weight:normal;line-height:16px;padding:0;margin:0}
 .social-share .icon-wechat .wechat-qrcode:after{content:'';position:absolute;left:50%;margin-left:-6px;bottom:-13px;width:0;height:0;border-width:8px 6px 6px 6px;border-style:solid;border-color:#fff transparent transparent transparent}
 .social-share .icon-wechat:hover .wechat-qrcode{display:block}
-~~~
+```
 
 主要修改了这一段：
-~~~
+```
 .social-share .social-share-icon{position:relative;display:inline-block;width:42px;height:42px;font-size:25px;border-radius:50%;line-height:37px;border:2px solid #666;color:#666;text-align:center;vertical-align:middle;transition:background 0.6s ease-out 0s}
-~~~
+```
 将分享插件嵌入到网页中
 为了将分享插件嵌入到每篇文章的网页中，我们需要修改一些模板。首先需要引入 css 样式，通过修改文件 <hugo_home>/themes/beautifulhugo/layouts/partials/head.html，在其中引入 share.min.css。
 
-~~~
+```
   ...
   <!-- bootcss cdn 国外访问太慢 -->
   <!--
@@ -118,9 +118,9 @@ $ cat <hugo_home>/themes/beautifulhugo/static/css/share.min.css
   <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "css/share.min.css" | absURL }}" />
   ...
- ~~~
+ ```
 然后在 <hugo_home>/themes/beautifulhugo/layouts/partials/目录下创建一个 html。
-~~~
+```
 $ cat <hugo_home>/themes/beautifulhugo/layouts/partials/share.html
 <div class="social-share" data-initialized="true" data-wechat-qrcode-title="不扫别后悔">
     <center>
@@ -137,10 +137,10 @@ $ cat <hugo_home>/themes/beautifulhugo/layouts/partials/share.html
 
 <!--  css & js -->
 <script src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/social-share.min.js"></script>
-~~~
+```
 修改模板 <hugo_home>/themes/beautifulhugo/layouts/_default/single.html，加载 share.html。
 
-~~~
+```
 <div class="container" role="main" itemscope itemtype="http://schema.org/Article">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -155,9 +155,9 @@ $ cat <hugo_home>/themes/beautifulhugo/layouts/partials/share.html
                 {{ partial "share.html" }}
             </article>
             ...
-~~~
+```
 如果你想让某些页面不开启分享插件，可以通过参数 (.Params.noshare) 来控制是否加载分享插件。
-~~~
+```
 <div class="container" role="main" itemscope itemtype="http://schema.org/Article">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -174,17 +174,17 @@ $ cat <hugo_home>/themes/beautifulhugo/layouts/partials/share.html
                 {{ end }}
             </article>
             ...
- ~~~
+ ```
 这样我们就可以在页面中通过 noshare 参数来控制了。如下是不想加载分享插件的文章的 meta 信息参数：
 
-~~~
+```
 ---
 title: xxxxxx
 date: xxxxxx
 ...
 noshare: true
 ---
-~~~
+```
 ---
 ## 3. 更多
 关于分享插件的更多自定义配置请参考代码仓库的 [README](https://github.com/overtrue/share.js)。
