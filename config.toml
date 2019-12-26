@@ -125,7 +125,7 @@ uglyURLs = false
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS","RSS", "JSON"]
     section = ["HTML"]
     # 类别
     taxonomyTerm = ["HTML"]
@@ -476,7 +476,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    mainSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
+    mainSections = ["original", "poetry", "aphorism", "notes", "excerpt","tech"]
 
 
     ######################################
@@ -1215,3 +1215,4 @@ uglyURLs = false
     fofVideoWebm = "https://gateway.360tai.cn/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
     fofVideoMp4 = "https://gateway.360tai.cn/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
     # 说明：视频地址可留空（""）
+
