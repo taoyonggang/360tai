@@ -30,5 +30,8 @@
     "readable-stream": "^3.4.0",
     "uglify-es": "^3.3.9",
     "workbox-build": "^4.3.1"
+  },
+  "dependencies": {
+    "gitment": "0.0.3"
   }
 }
