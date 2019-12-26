@@ -2,7 +2,7 @@
 title = "教你做 Filecoin Lotus 测试网的大矿工"
 date = "2019-12-26T15:13:56+08:00"
 tags = ["ipfs", "decentralized", "Filecoin", "lotus", "矿工"]
-slug = "host-your-blog-on-ipfs"
+slug = "how-big-miner-filecoin"
 description = "Filecoin大矿工指南"
 gitinfo = true
 displayCopyright = false
