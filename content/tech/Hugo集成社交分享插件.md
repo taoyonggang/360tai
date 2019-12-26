@@ -4,7 +4,6 @@ date = "2019-12-24T10:06:28+08:00"
 tags = ["hugo", "share" ]
 slug = "share-hugo-wexin-weibo"
 description = "使用share.js分享hugo博客"
-gitment = true
 comments = true
 +++
 
