@@ -624,7 +624,7 @@ uglyURLs = false
     valineHighlight = true
     avatarForce = false
     valineRecordIP = false
-    valineServerURLs = ""
+    valineServerURLs = "https://gdsvv6no.lc-cn-n1-shared.com"
     # 说明：https://valine.js.org/
 
     ## Utterances
