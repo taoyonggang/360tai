@@ -6,7 +6,7 @@ title = "莲花海的博客 - Tao"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
+copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享！"
 
 # 主题选择
 theme = "meme"
@@ -125,7 +125,7 @@ uglyURLs = false
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS","RSS", "JSON"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS","RSS"]
     section = ["HTML"]
     # 类别
     taxonomyTerm = ["HTML"]
@@ -1151,7 +1151,7 @@ uglyURLs = false
     displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "我的博客即将同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=1uezpf55n8r0r"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"

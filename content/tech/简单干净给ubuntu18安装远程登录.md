@@ -1,6 +1,6 @@
 +++
 title = "简单干净给ubuntu18安装远程登录"
-date = "2019-12-28T21:18:50+08:00"
+date = "2019-12-29T0:18:50+08:00"
 tags = ["ubuntu", "xrdp","远程桌面"]
 slug = "simple-install-remote-desktop-on-ubuntu19"
 dropCap = false
@@ -52,4 +52,6 @@ sudo ufw allow 3389
 
 
 [^1]: 来源：https://linuxize.com/post/how-to-install-xrdp-on-ubuntu-18-04/
+
+
 
