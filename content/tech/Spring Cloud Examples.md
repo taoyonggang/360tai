@@ -1,9 +1,9 @@
 +++
 title = "Spring Cloud Examples"
 date = "2017-10-03T15:05:22+08:00"
-tags = ["Spring Cloud","微服务"，"Java"]
+tags = ["Spring Cloud","微服务","Java"]
 slug = "Spring Cloud Examples"
-Categories = ["Spring Cloud","微服务"，"Java"]
+Categories = ["Spring Cloud","微服务","Java"]
 +++
 
 # Spring Cloud Examples
