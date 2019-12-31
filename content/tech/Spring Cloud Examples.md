@@ -1,10 +1,13 @@
 +++
 title = "Spring Cloud Examples"
 date = "2017-10-03T15:05:22+08:00"
+lastmod = "2019-12-31T13:01:21+08:00"
 tags = ["Spring Cloud","微服务","Java"]
 slug = "Spring Cloud Examples"
 Categories = ["Spring Cloud","微服务","Java"]
 +++
+
+## 推荐一批Spring Cloud 学习资源
 
 # Spring Cloud Examples
 
@@ -53,6 +56,63 @@ Spring Cloud 使用的各种示例，以最简单、最实用为标准
 - [springcloud(十六)：服务网关 Spring Cloud GateWay 服务化和过滤器](http://www.ityouknow.com/springcloud/2019/01/19/spring-cloud-gateway-service.html)  
 - [springcloud(十七)：服务网关 Spring Cloud GateWay 熔断、限流、重试](http://www.ityouknow.com/springcloud/2019/01/26/spring-cloud-gateway-limit.html)  
 
+
+
+# spring-cloud 文章对应源码
+
+- Spring Cloud Eureka 初探：http://cxytiandi.com/blog/detail/11988
+- Spring Cloud Eureka 增加权限认证：http://cxytiandi.com/blog/detail/12171
+- Spring Cloud Eureka 集群高可用：http://cxytiandi.com/blog/detail/12188
+- Spring Cloud Eureka 控制台快速查看Swagger API文档：http://cxytiandi.com/blog/detail/12578
+- Spring Cloud Eureka REST 接口：http://cxytiandi.com/blog/detail/12610
+- Spring Cloud Eureka 服务上下线监控：http://cxytiandi.com/blog/detail/17640
+- Spring Boot2中Spring Security导致Eureka注册失败 ：http://cxytiandi.com/blog/detail/19388
+- Spring Cloud中如何优雅的使用Feign调用接口：http://cxytiandi.com/blog/detail/12189
+- Spring Cloud Feign fallback错误解决：http://cxytiandi.com/blog/detail/12368
+- Spring Cloud Feign 启动UnsatisfiedDependencyException：http://cxytiandi.com/blog/detail/12549
+- Spring Cloud中如何保证各个微服务之间调用的安全性： http://cxytiandi.com/blog/detail/12267
+- Spring Cloud中如何保证各个微服务之间调用的安全性(下篇)：http://cxytiandi.com/blog/detail/12300
+- Spring Cloud中Feign如何统一设置验证token：http://cxytiandi.com/blog/detail/12369
+- spring Cloud统一异常处理：http://cxytiandi.com/blog/detail/3106
+- Spring Cloud 如何选择分布式配置中心：http://cxytiandi.com/blog/detail/12466
+- Ribbon负载均衡策略介绍：http://cxytiandi.com/blog/detail/13598
+- Spring Cloud Ribbon 重试机制：http://cxytiandi.com/blog/detail/12507
+- Spring Cloud Zuul结合Smconf配置中心动态进行IP黑名单限制：http://cxytiandi.com/blog/detail/12508
+- Spring Cloud Zuul Filter 使用小经验：http://cxytiandi.com/blog/detail/12632
+- Spring Cloud Zuul过滤器获取请求参数问题:http://cxytiandi.com/blog/detail/20343
+- Spring Cloud如何提供API给客户端:http://cxytiandi.com/blog/detail/14458
+- Spring Cloud Sleuth 链路追踪：http://cxytiandi.com/blog/detail/12804
+- Spring Cloud Sleuth Zipkin 展示追踪数据：http://cxytiandi.com/blog/detail/12828
+- Spring Cloud Sleuth Zipkin 升级使用：http://cxytiandi.com/blog/detail/12855
+- Spring Boot Admin管理监控数据：http://cxytiandi.com/blog/detail/12880
+- Hystrix 配置信息：http://cxytiandi.com/blog/detail/13127
+- Spring Cloud中使用Hystrix 线程隔离导致ThreadLocal数据丢失：http://cxytiandi.com/blog/detail/13331
+- Spring Cloud中Hystrix 线程隔离导致ThreadLocal数据丢失下篇：http://cxytiandi.com/blog/detail/18782
+- Spring Boot Admin监控服务上下线邮件通知：http://cxytiandi.com/blog/detail/13376
+- Spring Cloud Gateway 网关尝鲜:http://cxytiandi.com/blog/detail/20430
+- Spring Cloud Gateway 整合Eureka路由转发:http://cxytiandi.com/blog/detail/20518
+
+# 项目代码工程目录讲解
+- fangjia-api-client：Feign客户端，所有调用的API定义在里面，相当于API的SDK
+- fangjia-auth-service：服务之间内部调用认证的服务，服务调用时需要来这边进行认证，获取访问Token
+- fangjia-boot-admin：Spring Boot Admin来管理服务的监控数据
+- fangjia-common：公共的包，放一些通用的工具类
+- fangjia-eureka：Eureka注册中心
+- fangjia-fsh-api：API网关
+- fangjia-fsh-house-service：house服务
+- fangjia-fsh-substitution-service：substitution服务
+- fangjia-fsh-user-service：用户服务，登陆接口，swagger使用示列
+- fangjia-hystrix-dashboard：hystrix-dashboard,turbine示列
+- fangjia-job：分布式任务调度
+- fangjia-sjdbc-read-write：数据库读写分离
+- fangjia-sjdbc-sharding-db-table：数据库分库分表
+- fangjia-sjdbc-sharding-table：数据库分表
+- fangjia-zipkin：调用链
+- hystrix：hystrix单独使用
+- transaction-mq-client：可靠消息服务Feign客户端
+- transaction-mq-service：可靠消息服务,提供接口
+- transaction-mq-task：负责发送消息
+
 综合篇：
 
 - **[Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html)**   
@@ -61,3 +121,17 @@ Spring Cloud 使用的各种示例，以最简单、最实用为标准
 - **[阿里Dubbo疯狂更新，关Spring Cloud什么事？](http://www.ityouknow.com/springcloud/2017/11/20/dubbo-update-again.html)**   
 
 > 如果大家想了解关于springcloud的其它方面应用，也可以以[issues](https://github.com/ityouknow/spring-cloud-examples/issues)的形式反馈给我，我后续来完善。
+
+
+- [Spring Cloud Kubernetes](https://github.com/taoyonggang/spring-cloud-kubernetes)
+
+Spring Cloud Kubernetes provide Spring Cloud common interfaces implementations to consume Kubernetes native services. The main objective of the projects provided in this repository is to facilitate the integration of Spring Cloud/Spring Boot applications running inside Kubernetes.
+
+-[Spring cloud 开发的分布式商城](https://github.com/laodaobazi/ldbz-shop)
+
+-[FlyClould 微服务实战项目框架](https://github.com/mxdldev/spring-cloud-flycloud)
+FlyClould 微服务实战项目框架，在该框架中，包括了用 Spring Cloud 构建微服务的一系列基本组件和框架，对于后台服务框架的搭建有很大的参考价值，大家可以参考甚至稍加修改可以直接应用于自己的实际的项目开发中，该项目没有采用Maven进行项目构建，Maven通过xml进行依赖管理，导致整个配置文件太过臃肿，另外灵活性也不是很强，所以我采用Gradle进行项目构建和依赖管理，在FlyTour项目中我们见证了Gradle的强大，通过简单的一些配置就可以轻松的实现组件化的功能。结构简单，便于学习。
+
+-[pig && pigx 商业化微服务框架](https://pig4cloud.com/)
+代码新，比较系统，稍微复杂，学习参考和项目借鉴都有价值。[演示环境](https://pigx.pig4cloud.com/#/login)
+![20190621114631_Jb3yJO_pigx20190619.jpeg](/images/20190621114631_Jb3yJO_pigx20190619.jpeg)
