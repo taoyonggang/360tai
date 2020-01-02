@@ -12,7 +12,7 @@ categories = ["Kubernetes","devops","ci/cd","开发实战","docker"]
 ## 1、基于kubernetes devops的整体方案
 本文以Kubernetes为基础，为基于java语言研发团队提供一套完整的devops解决方案。在此方案中，开发人员基于eclipse集成开发环境进行代码；开发人员所开发的代码交由由gitlab进行托管、版本管理和分支管理；代码的依赖更新和构建工作由Maven进行处理；为了提升工作效率和代码质量，在devops中引入SonarQube进行代码检查；对于打包构建后代码，交由docker进行镜像构建，并在私有镜像仓库中对镜像进行管理；最后，devops会将自动从私有镜像仓库从拉取镜像，并在Rancher中进行部署。
 
-!["整体方案图"](\images\微信截图_20180705173151.png)
+!["整体方案图"](\images\%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180705173151.png)
 
 # 基于此devops解决方案的整体工作过程如下所示：
 
