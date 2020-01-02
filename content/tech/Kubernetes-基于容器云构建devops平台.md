@@ -59,10 +59,11 @@ spec:
     name: gitlab22
   selector:
     app: gitlab
----
+
 
 
 # ------------------------定义Gitlab的部署 -----------------------
+
 
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
@@ -142,7 +143,7 @@ spec:
     name: nexus5001
   selector:
     app: nexus3
----
+
 #-----------------------定义Nexus部署-------------------------
 apiVersion: apps/v1beta2
 kind: Deployment
@@ -203,7 +204,7 @@ spec:
     name: pipeline8080
   selector:
     app: jenkins-devops
----
+
 
 # ------------------------定义mysql的部署 -----------------------
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
