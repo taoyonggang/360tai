@@ -472,9 +472,9 @@ Config Files：构建YAML配置文件。
 
 ## 参考材料
 
-[^1]:[《User documentation》地址：](http://10.0.32.163:32269/help/user/index.md)
+[^1]: 《User documentation》地址：http://10.0.32.163:32269/help/user/index.md
 
-[^2]:[《CloudBees Docker Build and Publish plugin》地址：](https://wiki.jenkins.io/display/JENKINS/CloudBees+Docker+Build+and+Publish+plugin)
+[^2]: 《CloudBees Docker Build and Publish plugin》地址：https://wiki.jenkins.io/display/JENKINS/CloudBees+Docker+Build+and+Publish+plugin
 
-[^3]:[《Kubernetes Continuous Deploy Plugin》地址：](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Continuous+Deploy+Plugin)
+[^3]: 《Kubernetes Continuous Deploy Plugin》地址：https://wiki.jenkins.io/display/JENKINS/Kubernetes+Continuous+Deploy+Plugin
 
