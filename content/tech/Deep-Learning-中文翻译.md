@@ -11,6 +11,8 @@ categories = ["Deep Learning","机器学习","AI","人工智能","神经网络"]
 
 [Git地址，包含电子版](https://github.com/exacity/deeplearningbook-chinese)
 
+[pdf永久下载地址](https://gateway.pinata.cloud/ipfs/QmcjVNF5sSzyZvRRRdwLRNTjG9MCubdrTzyFoNjGH2kB7w)
+
 在众多网友的帮助和校对下，中文版终于出版了。尽管还有很多问题，但至少90%的内容是可读的，并且是准确的。
 我们尽可能地保留了原书[Deep Learning](http://www.deeplearningbook.org/)中的意思并保留原书的语句。
 
