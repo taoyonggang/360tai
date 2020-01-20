@@ -88,7 +88,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "http://icp.chinaz.com/info?q=360tai.cn"
+    website = "https://vpool.club/"
     # 推特
     twitter = "taoyonggang"
 
@@ -251,7 +251,7 @@ uglyURLs = false
         weight = 3
         pre = "external"
     [[menu.home]]
-        url = "/#"
+        url = "https://icp.chinaz.com/info?q=360tai.cn"
         name = "蜀ICP备18014876号-1"
         weight = 4
         pre = "external"
