@@ -1,3 +1,7 @@
 [submodule "themes/meme"]
 	path = themes/meme
 	url = https://github.com/taoyonggang/hugo-theme-meme.git
+
+[submodule "themes/maupassant"]
+	path = themes/maupassant
+	url = https://github.com/flysnow-org/maupassant-hugo
