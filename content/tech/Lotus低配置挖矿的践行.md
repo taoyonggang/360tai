@@ -1,7 +1,7 @@
 +++
 title = "Lotus低配置挖矿的践行"
 date = "2020-01-21T14:11:22+08:00"
-slug = "big-miner-filecoin-cluster"
+slug = "create-saved-miner-filecoin-cluster"
 description = "Filecoin挖矿集群"
 tags = ["ipfs", "decentralized", "Filecoin", "lotus", "矿工"]
 gitinfo = true
